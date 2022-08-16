@@ -1,4 +1,4 @@
-### First Method
+## First Method
 
 Deleting the `.git` folder may cause problems in our git repository. If we want to delete all of our commits history, but keep the code in its current state, try this:
 
@@ -24,7 +24,7 @@ git push -f origin master
 
 This will not keep our old commits history around. **But if this doesn't work, try the next method below.**
 
-### Second Method
+## Second Method
 
 ```
 # Clone the project, e.g. `myproject` is my project repository:
